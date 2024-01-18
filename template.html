@@ -1,0 +1,125 @@
+<table style="table-layout: fixed; width: 500px; margin-left: auto; margin-right: auto; margin-top: 50px;">
+    <tr style="text-align: center;">
+        <td colspan="3" rowspan="2">
+            <p style="font-size: 23px;"><strong>{snm}</strong></p>
+        </td>
+        <td colspan="5" rowspan="2">
+            <img src="{delhivery_logo}" width="80%" 
+            style="margin-top: -40px; margin-bottom: -40px;">
+        </td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td colspan="8" rowspan="3" style="border-bottom: 0; text-align: center; padding-top: 5px;">
+            <img src="{barcode}" 
+            width="90%" height="75px">
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="4" rowspan="2" style="border-top: 0; border-right: 0; padding: 10px;">
+            <p style="font-size: 20px;">{pin}</p>
+        </td>
+        <td colspan="4" rowspan="2" style="text-align: right; border-top: 0; border-left: 0; padding: 10px;">
+            <p style="font-size: 20px;"><strong>{sort_code}</strong></p>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td colspan="6" rowspan="5" style="padding: 5px;">
+            <p style="font-size: 18px;">
+                <strong style="font-size: 18px;">Ship To:</strong>
+                <br>
+                <strong style="font-size: 20px; text-transform: uppercase;">{name}</strong>
+                <br>
+                {name}
+                <br>
+                {address}
+                <br>
+                {destination}
+                <br>
+                <strong>PIN:{pin}</strong>
+            </p>
+        </td>
+        <td colspan="2" rowspan="5" style="text-align: center;">
+            <p style="font-size: 20px;">
+                <strong>{pt}</strong>
+                <br>
+                <strong>Surface</strong>
+                <br>
+                <br>
+                <strong>INR {rs}</strong>
+            </p>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="6" rowspan="4" style="padding: 5px;">
+            <p style="font-size: 18px;">
+                <strong>Seller: </strong>{snm}
+                <br>
+                <strong>Address:</strong> {sadd}
+            </p>
+        </td>
+        <td colspan="2" rowspan="4" style="padding: 5px;">
+            <p style="font-size: 16px;">
+                <strong>Date: </strong>{cd}</p>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="6" style="padding: 5px;">
+            <p style="font-size: 18px;">Product(Qty)</p>
+        </td>
+        <td style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">Price</p>
+        </td>
+        <td style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">Total</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" rowspan="3" style="padding: 5px; height: 100px;">
+            <p style="font-size: 18px;">{prd}</p>
+        </td>
+        <td rowspan="3" style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">INR {rs}</p>
+        </td>
+        <td rowspan="3" style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">INR {rs}</p>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="6" style="padding: 5px;">
+            <p style="font-size: 18px;">Total</p>
+        </td>
+        <td style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">INR {rs}</p>
+        </td>
+        <td style="padding: 5px;">
+            <p style="font-size: 18px; text-align: center;">INR {rs}</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="8" rowspan="3" style="text-align: center; padding: 5px;">
+            <img src="{oid_barcode}" width="90%" height="75px">
+            <!-- <p style="margin-top: 0px; font-family: monospace; font-size: 16px;"><strong>SUREFIX1234</strong></p> -->
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="8" rowspan="2" style="padding: 5px;">
+            <p style="font-size: 20px;">Return Address: {radd}</p>
+        </td>
+    </tr>
+    <tr></tr>
+</table>
